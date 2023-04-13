@@ -1,10 +1,7 @@
 import {data} from '../SpeakerData'
 
 const Session = (props) =>{
-  const {title, props} = props
-
-  console.log(props.title, 'session props are comming' ,'room is coming++++++++', props.room)
-  
+  const {title, room} = props  
   return(
     <div>its Session Components
       <span className='sesssion w-100'>
